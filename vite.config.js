@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // index.html이 기본 진입점입니다
+  plugins: [react()],
 })
 
 
