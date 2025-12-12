@@ -5,8 +5,8 @@ import {
   grantRandomResources,
   unlockCard,
   getCardStatus,
-  cards,
 } from "../game/gameLogic";
+import { cards } from "../game/cards";
 
 interface GameContextType {
   state: GameState;
